@@ -1,18 +1,21 @@
 # Frontier Compute
 
-Frontier Compute builds shielded coinbase mining infrastructure for Zcash.
+On-chain attestation infrastructure for Zcash. NSM1 structured memo protocol with BLAKE2b Merkle commitments anchored to mainnet.
 
 ## Public repositories
 
-- `shielded-coinbase`: technical proof, architecture, and sanitized deployment documentation
+- [`zec-pay`](https://github.com/Frontier-Compute/zec-pay) - reference implementation. Payment receiver, scanner, anchor subsystem, verification endpoints. MIT.
+- [`nsm1-verify`](https://github.com/Frontier-Compute/nsm1-verify) - standalone Merkle proof verification library. Rust + WASM. On [crates.io](https://crates.io/crates/nsm1-verify). MIT.
 
-## Websites
+## Live
 
 - https://frontiercompute.io
 - https://nordicshield.frontiercompute.io
-
-Website source repositories are private.
+- https://explorer.frontiercompute.io
+- https://simulator.frontiercompute.io
+- https://pay.frontiercompute.io/protocol/info
 
 ## Contact
 
+- ops@frontiercompute.io
 - Signal: published through the websites
