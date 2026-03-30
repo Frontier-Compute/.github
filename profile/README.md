@@ -1,24 +1,25 @@
-# Frontier Compute
+## Zcash attestation infrastructure
 
-On-chain attestation infrastructure for Zcash. ZAP1 structured memo protocol with BLAKE2b Merkle commitments anchored to mainnet.
+Open-source protocol and tooling for structured on-chain commitments via Zcash shielded memos. MIT licensed.
 
-## Public repositories
+### Protocol
 
-- [`zap1`](https://github.com/Frontier-Compute/zap1) — reference implementation. Payment receiver, scanner, anchor subsystem, verification endpoints. MIT.
-- [`zap1-verify`](https://github.com/Frontier-Compute/zap1-verify) — standalone Merkle proof verification library. Rust + WASM. MIT.
-- [`zap1-js`](https://github.com/Frontier-Compute/zap1-js) — JavaScript/TypeScript verification SDK. WASM backend. MIT.
-- [`zap1-explorer`](https://github.com/Frontier-Compute/zap1-explorer) — attestation browser. Dashboard, leaf search, proof viewer. MIT.
-- [`zap1-simulator`](https://github.com/Frontier-Compute/zap1-simulator) — interactive 9-step lifecycle simulator with client-side Merkle tree. MIT.
+- [`zap1`](https://github.com/Frontier-Compute/zap1) - ZAP1 attestation protocol. BLAKE2b Merkle commitments, Orchard shielded anchoring, 9 binaries, 60+ tests. [ZIP draft PR #1243](https://github.com/zcash/zips/pull/1243).
 
-## Live
+### Verification
 
-- https://frontiercompute.io
-- https://nordicshield.frontiercompute.io
-- https://explorer.frontiercompute.io
-- https://simulator.frontiercompute.io
-- https://pay.frontiercompute.io/protocol/info
+- [`zap1-verify`](https://github.com/Frontier-Compute/zap1-verify) - Merkle proof verification. Rust + WASM. [crates.io](https://crates.io/crates/zap1-verify).
+- [`zap1-js`](https://github.com/Frontier-Compute/zap1-js) - JS/TS verification SDK. [npm](https://www.npmjs.com/package/@frontiercompute/zap1).
 
-## Contact
+### Ecosystem tooling
 
-- ops@frontiercompute.io
-- Signal: published through the websites
+- [`zcash-memo-decode`](https://github.com/Frontier-Compute/zcash-memo-decode) - Universal Zcash shielded memo decoder. Text, ZIP 302 TVLV, ZAP1, binary, empty. Zero deps. [crates.io](https://crates.io/crates/zcash-memo-decode).
+
+### Explorer and simulator
+
+- [`zap1-explorer`](https://github.com/Frontier-Compute/zap1-explorer) - Attestation browser
+- [`zap1-simulator`](https://github.com/Frontier-Compute/zap1-simulator) - Interactive lifecycle simulator
+
+### Mainnet
+
+3 anchors. 12 leaves. Protocol info: https://pay.frontiercompute.io/protocol/info
