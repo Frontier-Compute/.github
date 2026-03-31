@@ -22,4 +22,4 @@ Open-source protocol and tooling for structured on-chain commitments via Zcash s
 
 ### Mainnet
 
-3 anchors. 12 leaves. Protocol info: https://pay.frontiercompute.io/protocol/info
+4 anchors. 14 leaves. Protocol info: https://pay.frontiercompute.io/protocol/info
