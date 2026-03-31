@@ -4,7 +4,7 @@ Open-source protocol and tooling for structured on-chain commitments via Zcash s
 
 ### Protocol
 
-- [`zap1`](https://github.com/Frontier-Compute/zap1) - ZAP1 attestation protocol. BLAKE2b Merkle commitments, Orchard shielded anchoring, 9 binaries, 124 tests, 55 automated checks. [ZIP draft PR #1243](https://github.com/zcash/zips/pull/1243).
+- [`zap1`](https://github.com/Frontier-Compute/zap1) - ZAP1 attestation protocol. BLAKE2b Merkle commitments, Orchard shielded anchoring, 9 binaries, 102 tests, 57 automated checks. [ZIP draft PR #1243](https://github.com/zcash/zips/pull/1243).
 
 ### Verification
 
