@@ -22,4 +22,4 @@ Open-source protocol and tooling for structured on-chain commitments via Zcash s
 
 ### Mainnet
 
-4 anchors. 15 event types. Protocol info: https://pay.frontiercompute.io/protocol/info
+1 anchor. 12 leaves. 9 event types. Protocol info: https://api.frontiercompute.cash/stats
