@@ -1,6 +1,6 @@
 ## Zcash agent custody infrastructure
 
-Open-source protocol and tooling for structured on-chain commitments via Zcash shielded memos.  MIT licensed.
+One protocol.  Five surfaces.  Every attestation visible in Zodl wallets.
 
 ### ShieldedVault
 
@@ -31,6 +31,13 @@ Agent custody defined by 5 properties:  non-drainable, policy-bound, attested, r
 - [Simulator](https://simulator.frontiercompute.io) - Interactive 9-step lifecycle demo
 - [Verifier](https://verify.frontiercompute.cash) - WASM proof verification in-browser
 - [Explorer](https://explorer.frontiercompute.io) - Attestation browser
+- [Zodl Receipt Demo](https://frontiercompute.cash/demo-receipt.html) - How attestations render in Zodl wallets
+
+### Surfaces
+
+- [frontiercompute.cash](https://frontiercompute.cash) - ShieldedVault (product + billing)
+- [nordicshield.cash](https://nordicshield.cash) - Shielded mining ($5,499 starter pack)
+- [00zeven.cash](https://00zeven.cash) - Verifiable AI agents
 
 ### Mainnet
 
