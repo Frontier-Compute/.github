@@ -41,4 +41,4 @@ Agent custody defined by 5 properties:  non-drainable, policy-bound, attested, r
 
 ### Mainnet
 
-1 anchor.  12 leaves.  9 event types.  6 mainnet chains.  Stats:  https://api.frontiercompute.cash/stats
+1 anchor.  12 leaves.  9 event types.  7 chains.  Stats:  https://api.frontiercompute.cash/stats
